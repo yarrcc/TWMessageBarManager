@@ -391,7 +391,7 @@ static UIColor *kTWDefaultMessageBarStyleSheetInfoStrokeColor = nil;
         self.messageWindow = [[TWMessageWindow alloc] init];
         self.messageWindow.frame = [UIApplication sharedApplication].keyWindow.frame;
         self.messageWindow.hidden = NO;
-        self.messageWindow.windowLevel = UIWindowLevelNormal;
+        self.messageWindow.windowLevel = 2;
         self.messageWindow.backgroundColor = [UIColor clearColor];
         self.messageWindow.rootViewController = [[TWMessageBarViewController alloc] init];
     }
